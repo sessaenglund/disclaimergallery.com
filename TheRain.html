@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link href='https://fonts.googleapis.com/css?family=Hind:400,700' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+<link rel='icon' href='favicon.ico'>
+<title> Disclaimer Gallery </title>
+
+</head>
+
+
+<body>
+
+<a class="toplink"  href="#"> &#8638; </a>
+
+<div class="wrapper">
+
+	<div class="wrapper__centerlink">
+		<a class="wrapper__backlink" href="pastshows.html"> &#8637;</a>
+	</div>
+
+	<img class="wrapper__image" src="images/TheRain_1.png">	
+
+	<p class="wrapper__text"> 
+	<p class="wrapper__text"> 
+	The Rain Brought Yesterdays Coffee
+Using the cityscape as both subject and object, sculptor and installation artist Estelle Maisonett uses found objects from her surrounding neighborhood to create large scale reliefs and collages with it's distinct mixture of mono printing, photography, and manipulation. By juxtaposing the tactility of the items with narrative built around it Maisonett blurs the perception of the eye from the emotional discourse surrounding it.
+
+Estelle is a recent graduate of SUNY Purchase School of Art+Design (BFA), recent exhibitions include Textured Vocabulary (Chashama, NYC), Asylum (Big Irvs, NYC), and Friends with Benefits (Atwater Gallery, NYC).
+
+Artist Portfolio: 
+www.estellemaisonett.com
+
+	</p>
+
+		<img class="wrapper__image" src="images/TheRain_2.png">	
+
+			
+
+
+</div>
+
+</body>
+
+<script type="text/javascript">
+
+$(window).scroll(function() {
+	if ( $(window).scrollTop() > 400 ) {
+		$('.toplink').fadeIn('slow');
+	} 
+	else {
+		$('.toplink').fadeOut('slow');
+	}
+});
+
+$('.toplink').click(function() {
+	$('html, body').animate({
+		scrollTop: 0
+	}, 700);
+	return false;
+});
+
+</script>
+
+</html>

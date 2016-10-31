@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link href='https://fonts.googleapis.com/css?family=Hind:400,700' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+<link rel='icon' href='favicon.ico'>
+<title> Disclaimer Gallery </title>
+
+</head>
+
+
+<body>
+
+<a class="toplink"  href="#"> &#8638; </a>
+
+<div class="wrapper">
+
+	<div class="wrapper__centerlink">
+		<a class="wrapper__backlink" href="pastshows.html"> &#8637;</a>
+	</div>
+
+	<img class="wrapper__image" src="images/Power_1.png">	
+
+	<p class="wrapper__text"> 
+	<p class="wrapper__text"> Disclaimer Gallery is proud to premiere #POWERVHS a 60-minute compilation of predominately black and brown, women/femme video artists curated by multimedia artist-performer-extraordinaire RAFiA. The show will feature an exclusive visual installation by RAFiA. We invite you to come enjoy drinks and laughs for the opening. 
+
+#POWERVHS consists of works by:
+Hattie Ball
+Michelle Marie Charles
+Angelina Fernandez
+Reagan Holiday
+Maria Jose
+Nandi Loaf
+Elizabeth Mputu
+Sondra Perry
+
+There will be a limited edition of #POWERVHS available on VHS as well as a more affordable edition on DVD. The film will be viewable in Disclaimer Gallery throughout the month.</p>
+
+		<img class="wrapper__image" src="images/Power_2.png">	
+
+			<img class="wrapper__image" src="images/Power_3.png">	
+
+
+</div>
+
+</body>
+
+<script type="text/javascript">
+
+$(window).scroll(function() {
+	if ( $(window).scrollTop() > 400 ) {
+		$('.toplink').fadeIn('slow');
+	} 
+	else {
+		$('.toplink').fadeOut('slow');
+	}
+});
+
+$('.toplink').click(function() {
+	$('html, body').animate({
+		scrollTop: 0
+	}, 700);
+	return false;
+});
+
+</script>
+
+</html>

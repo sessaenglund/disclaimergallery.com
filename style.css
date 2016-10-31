@@ -1,0 +1,165 @@
+*{
+	font-family: 'Libre Baskerville', serif;
+	color: #313131;
+}
+
+body 
+
+{
+	margin: 0;
+	font-size: 18px;
+
+
+background: #e7e7e8; 
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1000px;
+	width:100%;
+}
+
+
+.top__ {
+	margin: 0 auto;
+	width:100%;
+		margin: 0 0  0;
+
+}
+
+.left_col {
+	float:left;
+	margin: 0 0 0;
+	
+}
+
+
+.right_col {
+	float:right;
+	margin: 0 0 0;
+
+	
+}
+
+
+
+@media screen and (min-width: 768px) {
+    body {
+    	padding: 50px 0px;
+    }
+ }
+
+@media screen and (min-width: 1024px) {
+    .wrapper {
+    	max-width: 1000px;
+    }
+	
+ }
+
+.wrapper__copy{
+	font-weight: 400;
+		text-align: center;
+	line-height: 30px;
+	margin: 0 0 100px;
+}
+
+.wrapper__image{
+	width:100%;
+	margin-bottom: 100px;
+}
+
+.wrapper__copy + .wrapper__image,
+.wrapper__image + .wrapper__image {
+	margin-bottom: 100px;
+}
+
+.wrapper__link{
+	display: block;
+	/*margin-bottom: 60px;*/
+	text-decoration: none;
+}
+
+.wrapper__link .wrapper__image {
+	margin-bottom: 90px;
+
+
+}
+
+.wrapper__text{
+		color: #999999;
+			text-align: center;
+	font-size: 30px;
+	margin: 0 0 80px;
+
+
+}
+
+.wrapper__title{
+		color: #FFFFFF;
+			text-align: center;
+	font-size: 35px;
+	line-height: 30px
+	font-weight: 400;
+	margin: 0 0 100px;
+	
+	
+	}
+	
+	
+
+
+
+.wrapper__title2{
+		color: #f7d614;
+	font-size: 60px;
+	text-align: center;
+	line-height: 30px
+	font-weight: 400;
+	margin: 0 0 90px;
+}
+
+
+.wrapper__centerlink{
+	width: 100%;
+	text-align: center;
+	color: #ffba00;
+	text-decoration: none;
+	margin-bottom: 100px;
+}
+
+.wrapper__centerlink_yellow{
+	width: 100%;
+	text-align: center;
+	color: #ff0000;
+	text-decoration: none;
+	margin-bottom: 100px;
+}
+
+.wrapper__backlink{
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	font-size: 22px;
+}
+
+.toplink{
+	display:none;
+	font-size: 22px;
+	text-decoration: none;
+	padding: 15px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+
+.toplink:hover{
+	color: #FFCC00;
+
+}
+
+@media screen and (min-width: 1024px) {
+.toplink{
+	padding: 30px;
+	}
+}
+

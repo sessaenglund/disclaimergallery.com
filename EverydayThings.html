@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link href='https://fonts.googleapis.com/css?family=Hind:400,700' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+<link rel='icon' href='favicon.ico'>
+<title> Disclaimer Gallery </title>
+
+</head>
+
+
+<body>
+
+<a class="toplink"  href="#"> &#8638; </a>
+
+<div class="wrapper">
+
+	<div class="wrapper__centerlink">
+		<a class="wrapper__backlink" href="pastshows.html"> &#8637;</a>
+	</div>
+
+	<img class="wrapper__image" src="images/Everyday_1.png">	
+
+	<p class="wrapper__text"> 
+	<p class="wrapper__text"> 
+
+Everyday Things is a tongue in cheek solo exhibition by intermedia artist Megan Tatem. Featuring a series of culturally suggestive photographs, Everyday Things provides social commentary on the hidden politics of racial stereotypes while also concealing its own agenda in a clever cocoon of relevant rhetoric and latent sarcasm. Everyday Things toys with the concept of cultural association and how we apply them during our everyday lives.
+
+
+This exhibition is about the art of perception, the art of analysis. Everyday Things allows the audience to come to their own conclusions while also making them aware of the nature of those very conclusions.
+	<b>
+Words by Akeem Duncan
+	</p>
+
+		<img class="wrapper__image" src="images/Everyday_2.png">	
+
+			<img class="wrapper__image" src="images/Everyday_3.png">	
+
+
+</div>
+
+</body>
+
+<script type="text/javascript">
+
+$(window).scroll(function() {
+	if ( $(window).scrollTop() > 400 ) {
+		$('.toplink').fadeIn('slow');
+	} 
+	else {
+		$('.toplink').fadeOut('slow');
+	}
+});
+
+$('.toplink').click(function() {
+	$('html, body').animate({
+		scrollTop: 0
+	}, 700);
+	return false;
+});
+
+</script>
+
+</html>

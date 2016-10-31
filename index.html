@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+<link rel='icon' href='favicon.ico'>
+<title> Disclaimer Gallery </title>
+
+</head>
+
+
+<body>
+
+
+<a class="toplink"  href="#"> &#8638; </a>
+
+
+
+<div class="wrapper">
+
+
+
+	<a class="wrapper__centerlink"> 
+
+
+
+<p class="wrapper_centerlink"> 603 Bushwick Ave, Brooklyn </p>
+
+
+	<a class="wrapper__link" >
+		<img class="wrapper__image" src="images/AA_index.png">
+	</a>
+
+
+	<a class="wrapper__centerlink"> 
+		<h1 class="wrapper__text"> Welcome to Disclaimer Gallery. WE, Sessa Englund, O.K. Fox, Sarah Wang, Shaina Yang, Zaria Poem, and JinHee Kwak pay $360.80 a month to program this room for The Silent Barn.
+		<br><br>
+		
+We are dedicated to sustaining a gallery run by low income people to showcase low income people and otherly marginalized groups. Low income as in low income, zero assets, zero trust funds, zero fucking beer sponsorships. <br><br>
+
+We want this gallery to be a vivid expression of the experimental and non-hierarchical nature of the Silent Barn. We want to embrace our role within a larger organism. We are queer woman and nonbinary people of different racial backgrounds and that is who we will be showcasing. <br><br>
+
+We value representation, accessibility, and fighting dominant power structures within the art world. </h1>
+
+
+<a class="wrapper__centerlink" href="upcoming.html"> 
+		<h1 class="wrapper__title"> coming up... </h1>
+	</a>
+
+
+	<a class="wrapper__link" href="upcoming.html">
+		<img class="wrapper__image" src="images/upcoming_index2.png">
+	</a>
+
+	<a class="wrapper__centerlink" href="pastshows.html"> 
+		<h1 class="wrapper__title"> Past shows <3 </h1>
+	</a>
+
+
+	<a class="wrapper__centerlink" href="contact.html"> 
+		<h1 class="wrapper__title"> contact the Disclaimers</h1>
+	</a>
+	
+
+</div>
+
+</body>
+
+<script type="text/javascript">
+
+$(window).scroll(function() {
+	if ( $(window).scrollTop() > 400 ) {
+		$('.toplink').fadeIn('slow');
+	} 
+	else {
+		$('.toplink').fadeOut('slow');
+	}
+});
+
+$('.toplink').click(function() {
+	$('html, body').animate({
+		scrollTop: 0
+	}, 700);
+	return false;
+});
+
+</script>
+
+</html>
