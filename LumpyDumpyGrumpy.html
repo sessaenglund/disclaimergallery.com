@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link href='https://fonts.googleapis.com/css?family=Hind:400,700' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+<link rel='icon' href='favicon.ico'>
+<title> Disclaimer Gallery </title>
+
+</head>
+
+
+<body>
+
+<a class="toplink"  href="#"> &#8638; </a>
+
+<div class="wrapper">
+
+	<div class="wrapper__centerlink">
+		<a class="wrapper__backlink" href="pastshows.html"> &#8637;</a>
+	</div>
+
+	<img class="wrapper__image" src="images/LumpyDumpyGrumpy_1.jpg">	
+
+	<p class="wrapper__text"> 
+
+
+I want my audience to experience a visceral, bodily feeling, to be in an environment that is overwhelmingly stimulating. I want someone to walk into the space and sense the struggle and change and growth embodied in objects that hold the power and strength of life and the stillness of death. I want there to be moments where the peace and tranquility that I am hoping to feel at my time of passing are experienced. I want to expose the viewer to the vibrations of Om, that fuzzy feeling that I have only felt for split seconds when I am able to disassociate from my senses through mediation. I have experienced it when I am in so much pain that there is a moment I cannot feel a thing. It is in the forty-eighth minute of a long distance run when I no longer have to think about my movement and rhythm or my breathing pattern and I am through thinking about what I could have said or how I am going to change. I have felt it when I laid my head on the pillow placed next to the toilet bowl after my chest heaved and strained uncontrollably and repeatedly in a state where time did not exist. It is what I imagine to be an anticlimactic feeling of content in reaching enlightenment. 
+
+<br>
+<br>
+- KAYLEY BEREZNEY: LUMPY, DUMPY and GRUMPY 
+
+
+</p>
+
+		<img class="wrapper__image" src="images/LumpyDumpyGrumpy_2.jpg">	
+
+		<img class="wrapper__image" src="images/LumpyDumpyGrumpy_3.jpg">	
+
+</div>
+
+</body>
+
+<script type="text/javascript">
+
+$(window).scroll(function() {
+	if ( $(window).scrollTop() > 400 ) {
+		$('.toplink').fadeIn('slow');
+	} 
+	else {
+		$('.toplink').fadeOut('slow');
+	}
+});
+
+$('.toplink').click(function() {
+	$('html, body').animate({
+		scrollTop: 0
+	}, 700);
+	return false;
+});
+
+</script>
+
+</html>

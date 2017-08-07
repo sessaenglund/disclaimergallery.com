@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link href='https://fonts.googleapis.com/css?family=Hind:400,700' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+<link rel='icon' href='favicon.ico'>
+<title> Disclaimer Gallery </title>
+
+</head>
+
+
+<body>
+
+<a class="toplink"  href="#"> &#8638; </a>
+
+<div class="wrapper">
+
+	<div class="wrapper__centerlink">
+		<a class="wrapper__backlink" href="pastshows.html"> &#8637;</a>
+	</div>
+
+	<img class="wrapper__image" src="images/W4W_1.jpg">	
+
+	<p class="wrapper__text"> 
+	<p class="wrapper__text"> W4W Work by Annie Rose 
+	<br>
+	<br>
+
+W4W is a multimedia project consisting of handwritten drawings, digital canvases, and video that investigate the women for women missed connections section of Craigslist.com. These online personals are explored as a site of isolation and hyper visibility as seen through the lens of queer womens relationships and desires. A womancentric queer existence is by nature an isolating and dissociative experience. Queer women live on the intersection of misogyny and homophobia, creating an existence that is both invisible and hyper visible; one feels both completely erased as well as constantly watched. The w4w Missed Connections demonstrates the isolation and alienation that many queer women feel. Malamet meditates on these digital ads by carefully copying them by hand. This process illustrates her desire to connect with other queer women, though the nature of reaching out to a missed connection seems almost an unfathomable distance. Included in this exhibit is a manipulated and re-appropriated version of T.A.T.Us music video for their song All The Things She Said. Quotes from the featured Craigslist ads are interspersed throughout. Through this reimagining, these ephemeral objects are proposed as roots of desire, awakening, and trauma for queer women coming of age in the early 2000s.</p>
+
+		<img class="wrapper__image" src="images/W4W_2.jpg">	
+
+			<img class="wrapper__image" src="images/W4W_3.jpg">	
+
+
+</div>
+
+</body>
+
+<script type="text/javascript">
+
+$(window).scroll(function() {
+	if ( $(window).scrollTop() > 400 ) {
+		$('.toplink').fadeIn('slow');
+	} 
+	else {
+		$('.toplink').fadeOut('slow');
+	}
+});
+
+$('.toplink').click(function() {
+	$('html, body').animate({
+		scrollTop: 0
+	}, 700);
+	return false;
+});
+
+</script>
+
+</html>

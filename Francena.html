@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link href='https://fonts.googleapis.com/css?family=Hind:400,700' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+<link rel='icon' href='favicon.ico'>
+<title> Disclaimer Gallery </title>
+
+</head>
+
+
+<body>
+
+<a class="toplink"  href="#"> &#8638; </a>
+
+<div class="wrapper">
+
+	<div class="wrapper__centerlink">
+		<a class="wrapper__backlink" href="pastshows.html"> &#8637;</a>
+	</div>
+
+	<img class="wrapper__image" src="images/Francena_1.jpg">	
+
+	<p class="wrapper__text"> 
+She tells me... - An Interactive Experience By Francena Ottley
+
+<br>
+<br>
+
+For years natural hair, braids, anything outside of the -normal- straight hair has been frowned upon. Features of black women were never seen as a privilege or advantage, we were constantly fighting to look like the blonde hair, blued eyed girl next to us. Society has always shamed black women for certain qualities then go and steal these things and then receive praise for being a trendsetter. I want to reclaim what is rightfully ours, our God given beauty. I want to empower those who feel like their voices arent being heard. Give black women a platform to stand on to know they are beautiful, powerful, and have even more to embody than just their looks. 
+
+<br>
+<br>
+
+Through her installations, sculptures, photography, video, and embroidery, Francena creates an interactive atmosphere for the viewers allowing those to connect to ones experience.
+
+</p>
+
+		
+
+
+</div>
+
+</body>
+
+<script type="text/javascript">
+
+$(window).scroll(function() {
+	if ( $(window).scrollTop() > 400 ) {
+		$('.toplink').fadeIn('slow');
+	} 
+	else {
+		$('.toplink').fadeOut('slow');
+	}
+});
+
+$('.toplink').click(function() {
+	$('html, body').animate({
+		scrollTop: 0
+	}, 700);
+	return false;
+});
+
+</script>
+
+</html>
