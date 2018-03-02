@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link href='https://fonts.googleapis.com/css?family=Hind:400,700' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+<link rel='icon' href='favicon.ico'>
+<title> Disclaimer Gallery </title>
+
+</head>
+
+
+<body>
+
+<a class="toplink"  href="#"> &#8638; </a>
+
+<div class="wrapper">
+
+	<div class="wrapper__centerlink">
+		<a class="wrapper__backlink" href="pastshows.html"> &#8637;</a>
+	</div>
+
+	<img class="wrapper__image" src="images/Jasmine.jpg">	
+
+	<p class="wrapper__text"> 
+Yasmin Jones is a self-taught artist specializing in detailed drawings that celebrate alternate forms of femininity. Fallen Angels honors Valentine's Day by exploring the deep feelings of grief and deep infatuation commonly found in modern day relationships/flings. This showcase was made to represent the intense feelings one only experiences through romantic encounters from passion to devastation and inevitable heartache. 
+<br>
+<br>
+
+Inspired by the erotic and macabre, Jones uses harsh black inking and lining to invoke intense emotion but also strength, sensuality and self reliance in strong femmes. Join us on Friday evening to bask in the power of the provocative. Particularly potent in the hands of those who wield it as lived experience. 
+<br>
+<br>
+
+Disclaimer Gallery is run by artists for artists. We value representation, accessibility, and fighting dominant power structures in the [art] world.
+</p>
+
+
+</div>
+
+</body>
+
+<script type="text/javascript">
+
+$(window).scroll(function() {
+	if ( $(window).scrollTop() > 400 ) {
+		$('.toplink').fadeIn('slow');
+	} 
+	else {
+		$('.toplink').fadeOut('slow');
+	}
+});
+
+$('.toplink').click(function() {
+	$('html, body').animate({
+		scrollTop: 0
+	}, 700);
+	return false;
+});
+
+</script>
+
+</html>
