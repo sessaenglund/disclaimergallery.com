@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link href='https://fonts.googleapis.com/css?family=Hind:400,700' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+<link rel='icon' href='favicon.ico'>
+<title> Disclaimer Gallery </title>
+
+</head>
+
+
+<body>
+
+<a class="toplink"  href="#"> &#8638; </a>
+
+<div class="wrapper">
+
+	<div class="wrapper__centerlink">
+		<a class="wrapper__backlink" href="pastshows.html"> &#8637;</a>
+	</div>
+
+	<img class="wrapper__image" src="images/van1.jpg">	
+
+	<p class="wrapper__text"> 
+Disclaimer Gallery is proud to present Van Tran Nguyens  Those Who Protect, Those To Protect 2017, a ten minute video exploring the conflict and solidarity played out on womens bodies in Vietnam War era propaganda posters. The video shows Tran Nguyen inserting herself into these large scale projected images of women and girls presented as warriors, those who protect, or innocents, those to protect. By entering these images, morphing and adjusting to fit into the lines that create these caricatures, Tran Nguyen makes these women real. They are no longer just these embodied binaries, woman as warrior/woman as innocent, acting as opposition to Western imperialism. They become more nuanced and complex, taking on an imperfect agency.
+
+<br>
+<br>
+
+This piece is presented in a UHaul truck stationed at New Women Space in Greenpoint, and POWRPLNT in Bushwick, acting as a travelling form of dissemination that echoes the roadside billboards where this wartime propaganda originally appeared.
+<br>
+<br>
+Van Tran Nguyen  is a Vietnamese American multimedia artist based out of Troy, NY. vantrannguyen.com
+</p>
+
+	<img class="wrapper__image" src="images/van2.jpg">	
+	<img class="wrapper__image" src="images/van3.jpg">	
+
+
+</div>
+
+</body>
+
+<script type="text/javascript">
+
+$(window).scroll(function() {
+	if ( $(window).scrollTop() > 400 ) {
+		$('.toplink').fadeIn('slow');
+	} 
+	else {
+		$('.toplink').fadeOut('slow');
+	}
+});
+
+$('.toplink').click(function() {
+	$('html, body').animate({
+		scrollTop: 0
+	}, 700);
+	return false;
+});
+
+</script>
+
+</html>
